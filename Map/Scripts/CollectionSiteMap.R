@@ -49,6 +49,7 @@ map <- ggmap(myMap) +
 scale_color_manual(values = c("High" = "red", "Low" = "orange")) +
   theme(legend.position="none")
 
+#Order is important for saving this with the "north" symbol
 pdf(file="MooreaMap.pdf",width=10,height=8)
 #add north symbol to map
 north2(map,  x=.26, y=.28, symbol=4)
@@ -75,6 +76,8 @@ map <- ggmap(myMap) +
   scale_color_manual(values = c("High" = "red", "Low" = "orange")) +
   theme(legend.position="none")
 
+
+#Order is important for saving this with the "north" symbol
 pdf(file="SiteMap.pdf",width=10,height=8)
 #add north symbol to map
 north2(map,  x=.77, y=.85, symbol=4)
