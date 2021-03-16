@@ -72,9 +72,9 @@ anova.manyglm(mod1, mod4)
 
 
 #Obtain VIF values to check collinearity between predictors
-#assemo contains complete observations and predictor variables
+#assem contains complete observations and predictor variables
 # variance inflation factor analysis
-vif(xx = as.data.frame(assemo[ ,c("FlowBin","ParMort","Vol.IS","Rugosity","MeanB")])) # Little evidence of variance inflation among predictor variables.
+vif(xx = as.data.frame(assem[ ,c("FlowBin","ParMort","Vol.IS","Rugosity","MeanB")])) # Little evidence of variance inflation among predictor variables.
 
 
 #Correlation coefficients and heatmaps of manyglm models
