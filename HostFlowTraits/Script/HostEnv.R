@@ -102,11 +102,6 @@ qqp(hosto$MeanB, "norm")
 
 #correlation between branch diameter and branch density as well as interstitial width and branch height (PD) and branch height & interstitial width and branch density. Thus branch density was left in models with volume and rugosity to remove variables that likely explain same variation as branch density
 
-#Obtain VIF values for collinearity between predictors
-View(assemo)
-library(mctest)
-X<-assemo[,c(4,5,6,7,8)] #gives you just columns 4,5,6,7,8,those corresponding to traits selected as predictors 
-imcdiag(X, assemo$Density)
 
 #boxplot distributions of algal traits by flow
 library(tidyr)
