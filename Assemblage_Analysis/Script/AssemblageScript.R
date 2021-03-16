@@ -1,6 +1,7 @@
 ###Summer 19, Assemblage ~ Host and Environmental Trait Surveys
 library(mvabund) # multivariate analysis
 library(dplyr)
+library(HH) # for variance inflation factor analysis (vif) in multiple regression
 
 
 #boxplot distributions of functional group abundances by flow
@@ -68,6 +69,12 @@ arrange(AIC.mods, AIC)[1:4,] # display all of the models and their AIC values in
 anova.manyglm(mod3, mod4)
 anova.manyglm(mod2, mod4)
 anova.manyglm(mod1, mod4)
+
+
+#Obtain VIF values to check collinearity between predictors
+#assemo contains complete observations and predictor variables
+# variance inflation factor analysis
+vif(xx = as.data.frame(assemo[ ,c("FlowBin","ParMort","Vol.IS","Rugosity","MeanB")])) # Little evidence of variance inflation among predictor variables.
 
 
 #Correlation coefficients and heatmaps of manyglm models
