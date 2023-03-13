@@ -1,4 +1,7 @@
-# Mobile_invertebrate_assemblages_assocated_with_a_structurally-complex_crustose_coralline_alga
+![](images.jpeg)
+
+# Mobile invertebrate assemblages assocated w/ a structurally-complex crustose coralline alga
+
 Code, data, and output from Chapter 1 of my Master's thesis titled "Mobile fauna associated with the tropical, branch-forming crustose coralline alga, Lithophyllum kotschyanum."
 
 Folders include:

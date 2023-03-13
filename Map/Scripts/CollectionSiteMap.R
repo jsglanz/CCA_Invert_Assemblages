@@ -6,7 +6,6 @@ rm(list=ls())
 
 ##Install packages
 # load packages
-#easy and fun
 library(tidyverse)
 library(lubridate)
 library(data.table)
