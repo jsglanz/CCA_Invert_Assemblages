@@ -1,6 +1,6 @@
 ![](images.jpeg)
 
-# Mobile invertebrate assemblages assocated w/ a structurally-complex crustose coralline alga
+# Mobile invertebrate assemblages assocated w/ a structurally-complex crustose coralline alga (CCA)
 
 This repository holds the data, analyses, and figures for a master's thesis project at California State University, Northridge by Jess Glanz under the advisemnt of Dr. Robert Carpenter. Data were collected in along the northeastern back and fringing coral reefs of Mo'orea, French Polynesia. Data, scripts, and output pertain to an CCA-associated invert assemblage study on high- and low-flow coral reefs. Assemblages are analyzed for size and functional composition in relation to algal morphology and water flow environment.
 
